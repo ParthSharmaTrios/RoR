@@ -11,10 +11,11 @@ age = 10  ;first_name = "John"
 PI = 3.14
 VALUE_OF_PI = 3.14
 
-CamelCase
+#CamelCase
 
+age=10
 # the correct syntax shoud be age == 10
-if age=100
+if age==100
 	puts "Your age is 10"
 else
 	puts "WE don't know your age"
