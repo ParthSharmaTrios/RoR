@@ -1,0 +1,14 @@
+<h1> From this page you can add a new book</h1>
+
+<%= form_for @nb do |f| %>
+
+  
+  <%= f.label :title  %>
+  <%= f.text_field :title %>
+
+  <br><br>
+
+  <%= f.submit %>
+
+
+<% end %>
